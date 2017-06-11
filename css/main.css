@@ -9936,6 +9936,19 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   padding: 30vh 0;
 }
 
+.about {
+  padding: 10vh 0;
+}
+
+@media screen and (max-width: 500px) {
+  .about p {
+    padding-bottom: 10vh;
+  }
+  .about .img-fluid {
+    max-width: 80%;
+    margin-bottom: 1em;
+  }
+}
 
 .btn-ghost {
   color: #fff;
