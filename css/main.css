@@ -9950,6 +9950,15 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
+.team {
+  padding: 10vh 0;
+}
+
+.team .img-fluid {
+  max-width: 85%;
+  margin: 10vh auto 0;
+}
+
 .btn-ghost {
   color: #fff;
   background-color: transparent;
