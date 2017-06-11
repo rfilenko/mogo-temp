@@ -9939,6 +9939,23 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .about {
   padding: 10vh 0;
 }
+.about h3 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5rem;
+}
+
+.about h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  padding-bottom: 1em;
+  font-weight: 600;
+}
+
+.about hr.red {
+  border: 2px solid #f38181;
+  text-align: center;
+  width: 4rem;
+}
 
 @media screen and (max-width: 500px) {
   .about p {
@@ -9967,6 +9984,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   font-family: "Montserrat", sans-serif;
   font-size: 1.875rem;
   padding-bottom: 1em;
+  font-weight: 600;
 }
 
 .services hr.red {
@@ -10025,6 +10043,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   font-family: "Montserrat", sans-serif;
   font-size: 1.875rem;
   padding-bottom: 1em;
+  font-weight: 600;
 }
 
 .team hr.red {
