@@ -9930,3 +9930,38 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   overflow: visible;
   clip: auto;
 }
+
+.hero {
+  background: url("../img/hero-bg.jpg");
+  padding: 30vh 0;
+}
+
+
+.btn-ghost {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.btn-ghost:hover {
+  color: #fff;
+  background-color: transparent;
+  border-color: #e0e0e0;
+}
+
+.btn-ghost:focus, .btn-ghost.focus {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.btn-ghost.disabled, .btn-ghost:disabled {
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.btn-ghost:active, .btn-ghost.active,
+.show > .btn-ghost.dropdown-toggle {
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #e0e0e0;
+}
