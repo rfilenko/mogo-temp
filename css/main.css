@@ -17,6 +17,10 @@ body {
   margin: 0;
 }
 
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 article,
 aside,
 footer,
