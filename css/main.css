@@ -9950,8 +9950,87 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
+.services {
+  padding: 10vh 0;
+}
+
+.services .line {
+  border: 1px solid #b1b1b1;
+}
+
+.services h3 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5rem;
+}
+
+.services h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  padding-bottom: 1em;
+}
+
+.services hr.red {
+  border: 2px solid #f38181;
+  text-align: center;
+  width: 4rem;
+}
+
+.services .fa {
+  color: #95e1d3;
+}
+
+.design {
+  background: url("../img/design-bg.png") no-repeat;
+  padding-top: 10vh;
+  position: relative;
+}
+
+.design h3 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5rem;
+}
+
+.design h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  padding-bottom: 1em;
+  font-weight: 600;
+}
+
+.design hr.red {
+  border: 2px solid #f38181;
+  text-align: center;
+  width: 4rem;
+}
+
+.design .img-fluid {
+  max-width: 65%;
+  margin: 6vh auto 0;
+}
+
+.design .phone {
+  position: absolute;
+  bottom: -6em;
+  right: 11em;
+}
 .team {
   padding: 10vh 0;
+}
+.team h3 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5rem;
+}
+
+.team h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  padding-bottom: 1em;
+}
+
+.team hr.red {
+  border: 2px solid #f38181;
+  text-align: center;
+  width: 4rem;
 }
 
 .team .img-fluid {
