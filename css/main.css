@@ -10058,6 +10058,53 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   bottom: -6em;
   right: 11em;
 }
+
+
+.testimonials {
+  background-color: #f8f8f8;
+  padding: 10vh 0;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  color: black;
+}
+.testimonials .card {
+  background-color: transparent;
+}
+
+.testimonials .card img {
+  width: 75%;
+}
+
+.testimonials .card .red {
+  border: 2px solid #f38181;
+  text-align: center;
+  width: 4rem;
+  margin-left: 0%;
+  margin-right: 3%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.testimonials .card span {
+  vertical-align: baseline;
+  font-style: italic;
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 745px) {
+  .testimonials .card img {
+    width: 30%;
+  }
+  .testimonials .card p {
+    padding-top: 3em;
+  }
+  .testimonials .card .col-md-7 {
+    text-align: center !important;
+  }
+}
+
 .team {
   padding: 10vh 0;
 }
